@@ -12,7 +12,7 @@ import datetime
 from tqdm import tqdm
 
 SERVERCHAN_API_KEY = os.environ.get("SERVERCHAN_API_KEY", None)
-QUERY = os.environ.get('QUERY', 'NFC')
+QUERY = os.environ.get('QUERY', 'cs.CR')
 LIMITS = os.environ.get('LIMITS', 3)
 CAIYUN_TOKEN = os.environ.get("CAIYUN_TOKEN", None)
 
