@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 #SERVERCHAN_API_KEY = os.environ.get("SERVERCHAN_API_KEY", None)
 SERVERCHAN_API_KEY = os.environ.get("SERVERCHAN_API_KEY", "SCT211589Tg5U9sGo6ubUxB5A3mwSdULZR")
-QUERY = os.environ.get('QUERY', 'NFC')
+QUERY = os.environ.get('QUERY', 'Access Control')
 LIMITS = os.environ.get('LIMITS', 3)
 CAIYUN_TOKEN = os.environ.get("CAIYUN_TOKEN", "cpuiov8poa6ucevvo2xn")
 
