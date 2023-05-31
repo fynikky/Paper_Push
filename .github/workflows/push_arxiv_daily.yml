@@ -6,7 +6,7 @@ env:
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天 UTC 时间 00:00 触发, 即上海时间8点
+    - cron: '0 1 * * *' # 每天 UTC 时间 00:00 触发, 即上海时间8点
 
 jobs:
   daily-push:
@@ -14,7 +14,7 @@ jobs:
     env:
       SERVERCHAN_API_KEY: ${{ secrets.SERVERCHAN_API_KEY }}
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
-      QUERY: "cs.CV"
+      QUERY: "cs.CR"
       LIMITS: 10
 
     permissions:
