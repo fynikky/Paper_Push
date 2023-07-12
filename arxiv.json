@@ -2476,5 +2476,75 @@
         "pub_date": "2023-07-06",
         "summary": "Benaloh challenge allows the voter to audit the encryption of her vote, and\nin particular to check whether the vote has been represented correctly. An\ninteresting analysis of the mechanism has been presented by Culnane and Teague.\nThe authors propose a natural game-theoretic model of the interaction between\nthe voter and a corrupt, malicious encryption device. Then, they claim that\nthere is no \"natural\" rational strategy for the voter to play the game. In\nconsequence, the authorities cannot provide the voter with a sensible auditing\nstrategy, which undermines the whole idea.\n  Here, we claim the contrary, i.e., that there exist simple rational\nstrategies that justify the usefulness of Benaloh challenge.",
         "translated": ""
+    },
+    {
+        "title": "A unifying framework for differentially private quantum algorithms",
+        "url": "http://arxiv.org/abs/2307.04733v1",
+        "pub_date": "2023-07-10",
+        "summary": "Differential privacy is a widely used notion of security that enables the\nprocessing of sensitive information. In short, differentially private\nalgorithms map \"neighbouring\" inputs to close output distributions. Prior work\nproposed several quantum extensions of differential privacy, each of them built\non substantially different notions of neighbouring quantum states. In this\npaper, we propose a novel and general definition of neighbouring quantum\nstates. We demonstrate that this definition captures the underlying structure\nof quantum encodings and can be used to provide exponentially tighter privacy\nguarantees for quantum measurements. Our approach combines the addition of\nclassical and quantum noise and is motivated by the noisy nature of near-term\nquantum devices. Moreover, we also investigate an alternative setting where we\nare provided with multiple copies of the input state. In this case,\ndifferential privacy can be ensured with little loss in accuracy combining\nconcentration of measure and noise-adding mechanisms. En route, we prove the\nadvanced joint convexity of the quantum hockey-stick divergence and we\ndemonstrate how this result can be applied to quantum differential privacy.\nFinally, we complement our theoretical findings with an empirical estimation of\nthe certified adversarial robustness ensured by differentially private\nmeasurements.",
+        "translated": ""
+    },
+    {
+        "title": "Deceptive Information Retrieval",
+        "url": "http://arxiv.org/abs/2307.04727v1",
+        "pub_date": "2023-07-10",
+        "summary": "We introduce the problem of deceptive information retrieval (DIR), in which a\nuser wishes to download a required file out of multiple independent files\nstored in a system of databases while \\emph{deceiving} the databases by making\nthe databases' predictions on the user-required file index incorrect with high\nprobability. Conceptually, DIR is an extension of private information retrieval\n(PIR). In PIR, a user downloads a required file without revealing its index to\nany of the databases. The metric of deception is defined as the probability of\nerror of databases' prediction on the user-required file, minus the\ncorresponding probability of error in PIR. The problem is defined on\ntime-sensitive data that keeps updating from time to time. In the proposed\nscheme, the user deceives the databases by sending \\emph{real} queries to\ndownload the required file at the time of the requirement and \\emph{dummy}\nqueries at multiple distinct future time instances to manipulate the\nprobabilities of sending each query for each file requirement, using which the\ndatabases' make the predictions on the user-required file index. The proposed\nDIR scheme is based on a capacity achieving probabilistic PIR scheme, and\nachieves rates lower than the PIR capacity due to the additional downloads made\nto deceive the databases. When the required level of deception is zero, the\nproposed scheme achieves the PIR capacity.",
+        "translated": ""
+    },
+    {
+        "title": "Performance comparison of timing-based anomaly detectors for Controller\n  Area Network: a reproducible study",
+        "url": "http://arxiv.org/abs/2307.04561v1",
+        "pub_date": "2023-07-10",
+        "summary": "This work presents an experimental evaluation of the detection performance of\neight different algorithms for anomaly detection on the Controller Area Network\n(CAN) bus of modern vehicles based on the analysis of the timing or frequency\nof CAN messages. This work solves the current limitations of related scientific\nliterature, that is based on private dataset, lacks of open implementations,\nand detailed description of the detection algorithms. These drawback prevent\nthe reproducibility of published results, and makes it impossible to compare a\nnovel proposal against related work, thus hindering the advancement of science.\nThis paper solves these issues by publicly releasing implementations, labeled\ndatasets and by describing an unbiased experimental comparisons.",
+        "translated": ""
+    },
+    {
+        "title": "A Privacy-Preserving and Accountable Billing Protocol for Peer-to-Peer\n  Energy Trading Markets",
+        "url": "http://arxiv.org/abs/2307.04501v1",
+        "pub_date": "2023-07-10",
+        "summary": "This paper proposes a privacy-preserving and accountable billing (PA-Bill)\nprotocol for trading in peer-to-peer energy markets, addressing situations\nwhere there may be discrepancies between the volume of energy committed and\ndelivered. Such discrepancies can lead to challenges in providing both privacy\nand accountability while maintaining accurate billing. To overcome these\nchallenges, a universal cost splitting mechanism is proposed that prioritises\nprivacy and accountability. It leverages a homomorphic encryption cryptosystem\nto provide privacy and employs blockchain technology to establish\naccountability. A dispute resolution mechanism is also introduced to minimise\nthe occurrence of erroneous bill calculations while ensuring accountability and\nnon-repudiation throughout the billing process. Our evaluation demonstrates\nthat PA-Bill offers an effective billing mechanism that maintains privacy and\naccountability in peer-to-peer energy markets utilising a semi-decentralised\napproach.",
+        "translated": ""
+    },
+    {
+        "title": "Towards Automated Cyber Range Design: Characterizing and Matching\n  Demands to Supplies",
+        "url": "http://arxiv.org/abs/2307.04416v1",
+        "pub_date": "2023-07-10",
+        "summary": "Cyber ranges mimic real-world cyber environments and are in high demand.\nBefore building their own cyber ranges, organizations need to deeply understand\nwhat construction supplies are available to them. A fundamental supply is the\ncyber range architecture, which prompts an important research question: Which\ncyber range architecture is most appropriate for an organization's\nrequirements? To answer this question, we propose an innovative framework to\nspecify cyber range requirements, characterize cyber range architectures (based\non our analysis of 45 cyber range architectures), and match cyber range\narchitectures to cyber range requirements.",
+        "translated": ""
+    },
+    {
+        "title": "Towards Runtime Customizable Trusted Execution Environment on FPGA-SoC",
+        "url": "http://arxiv.org/abs/2307.04375v1",
+        "pub_date": "2023-07-10",
+        "summary": "Processing sensitive data and deploying well-designed Intellectual Property\n(IP) cores on remote Field Programmable Gate Array (FPGA) are prone to private\ndata leakage and IP theft. One effective solution is constructing Trusted\nExecution Environment (TEE) on FPGA-SoCs (FPGA System on Chips). Researchers\nhave integrated this type TEE with Trusted Platform Module (TPM)-based trusted\nboot, denoted as FPGA-SoC tbTEE. But there is no effort on secure and trusted\nruntime customization of FPGA-SoC TEE. This paper extends FPGA-SoC tbTEE to\nbuild Runtime Customizable TEE (RCTEE) on FPGA-SoC by additive three major\ncomponents (our work): 1) CrloadIP, which can load an IP core at runtime such\nthat RCTEE can be adjusted dynamically and securely; 2) CexecIP, which can not\nonly execute an IP core without modifying the operating system of FPGA-SoC TEE,\nbut also prevent insider attacks from executing IPs deployed in RCTEE; 3)\nCremoAT, which can provide the newly measured RCTEE state and establish a\nsecure and trusted communication path between remote verifiers and RCTEE. We\nconduct a security analysis of RCTEE and its performance evaluation on Xilinx\nZynq UltraScale+ XCZU15EG 2FFVB1156 MPSoC.",
+        "translated": ""
+    },
+    {
+        "title": "False Sense of Security: Leveraging XAI to Analyze the Reasoning and\n  True Performance of Context-less DGA Classifiers",
+        "url": "http://arxiv.org/abs/2307.04358v1",
+        "pub_date": "2023-07-10",
+        "summary": "The problem of revealing botnet activity through Domain Generation Algorithm\n(DGA) detection seems to be solved, considering that available deep learning\nclassifiers achieve accuracies of over 99.9%. However, these classifiers\nprovide a false sense of security as they are heavily biased and allow for\ntrivial detection bypass. In this work, we leverage explainable artificial\nintelligence (XAI) methods to analyze the reasoning of deep learning\nclassifiers and to systematically reveal such biases. We show that eliminating\nthese biases from DGA classifiers considerably deteriorates their performance.\nNevertheless we are able to design a context-aware detection system that is\nfree of the identified biases and maintains the detection rate of state-of-the\nart deep learning classifiers. In this context, we propose a visual analysis\nsystem that helps to better understand a classifier's reasoning, thereby\nincreasing trust in and transparency of detection methods and facilitating\ndecision-making.",
+        "translated": ""
+    },
+    {
+        "title": "ASCH-PUF: A \"Zero\" Bit Error Rate CMOS Physically Unclonable Function\n  with Dual-Mode Low-Cost Stabilization",
+        "url": "http://arxiv.org/abs/2307.04344v2",
+        "pub_date": "2023-07-10",
+        "summary": "Physically unclonable functions (PUFs) are increasingly adopted for low-cost\nand secure secret key and chip ID generations for embedded and IoT devices.\nAchieving 100% reproducible keys across wide temperature and voltage variations\nover the lifetime of a device is critical and conventionally requires large\nmasking or Error Correction Code (ECC) overhead to guarantee. This paper\npresents an Automatic Self Checking and Healing (ASCH) stabilization technique\nfor a state-of-the-art PUF cell design based on sub-threshold inverter chains.\nThe ASCH system successfully removes all unstable PUF cells without the need\nfor expensive temperature sweeps during unstable bit detection. By accurately\nfinding all unstable bits without expensive temperature sweeps to find all\nunstable bits, ASCH achieves ultra-low bit error rate (BER), thus significantly\nreducing the costs of using ECC and enrollment. Our ASCH can operate in two\nmodes, a static mode (S-ASCH) with a conventional pre-enrolled unstable bit\nmask and a dynamic mode (D-ASCH) that further eliminates the need for\nnon-volatile memories (NVMs) for storing masks. The proposed ASCH-PUF is\nfabricated and evaluated in 65nm CMOS. The ASCH system achieves \"0\" Bit Error\nRate (BER, &lt; 1.77E-9) across temperature variations of -20{\\deg}C to\n125{\\deg}C, and voltage variations of 0.7V to 1.4V, by masking 31% and 35% of\nall fabricated PUF bits in S-ASCH and D-ASCH mode respectively. The prototype\nachieves a measured throughput of 11.4 Gbps with 0.057 fJ/b core energy\nefficiency at 1.2V, 25{\\deg}C.",
+        "translated": ""
+    },
+    {
+        "title": "Privacy-Preserving Graph Machine Learning from Data to Computation: A\n  Survey",
+        "url": "http://arxiv.org/abs/2307.04338v1",
+        "pub_date": "2023-07-10",
+        "summary": "In graph machine learning, data collection, sharing, and analysis often\ninvolve multiple parties, each of which may require varying levels of data\nsecurity and privacy. To this end, preserving privacy is of great importance in\nprotecting sensitive information. In the era of big data, the relationships\namong data entities have become unprecedentedly complex, and more applications\nutilize advanced data structures (i.e., graphs) that can support network\nstructures and relevant attribute information. To date, many graph-based AI\nmodels have been proposed (e.g., graph neural networks) for various domain\ntasks, like computer vision and natural language processing. In this paper, we\nfocus on reviewing privacy-preserving techniques of graph machine learning. We\nsystematically review related works from the data to the computational aspects.\nWe first review methods for generating privacy-preserving graph data. Then we\ndescribe methods for transmitting privacy-preserved information (e.g., graph\nmodel parameters) to realize the optimization-based computation when data\nsharing among multiple parties is risky or impossible. In addition to\ndiscussing relevant theoretical methodology and software tools, we also discuss\ncurrent challenges and highlight several possible future research opportunities\nfor privacy-preserving graph machine learning. Finally, we envision a unified\nand comprehensive secure graph machine learning system.",
+        "translated": ""
+    },
+    {
+        "title": "Enhancing Adversarial Robustness via Score-Based Optimization",
+        "url": "http://arxiv.org/abs/2307.04333v1",
+        "pub_date": "2023-07-10",
+        "summary": "Adversarial attacks have the potential to mislead deep neural network\nclassifiers by introducing slight perturbations. Developing algorithms that can\nmitigate the effects of these attacks is crucial for ensuring the safe use of\nartificial intelligence. Recent studies have suggested that score-based\ndiffusion models are effective in adversarial defenses. However, existing\ndiffusion-based defenses rely on the sequential simulation of the reversed\nstochastic differential equations of diffusion models, which are\ncomputationally inefficient and yield suboptimal results. In this paper, we\nintroduce a novel adversarial defense scheme named ScoreOpt, which optimizes\nadversarial samples at test-time, towards original clean data in the direction\nguided by score-based priors. We conduct comprehensive experiments on multiple\ndatasets, including CIFAR10, CIFAR100 and ImageNet. Our experimental results\ndemonstrate that our approach outperforms existing adversarial defenses in\nterms of both robustness performance and inference speed.",
+        "translated": ""
     }
 ]
