@@ -3904,5 +3904,75 @@
         "pub_date": "2023-08-07",
         "summary": "Deep Learning has empowered us to train neural networks for complex data with\nhigh performance. However, with the growing research, several vulnerabilities\nin neural networks have been exposed. A particular branch of research,\nAdversarial Machine Learning, exploits and understands some of the\nvulnerabilities that cause the neural networks to misclassify for near original\ninput. A class of algorithms called adversarial attacks is proposed to make the\nneural networks misclassify for various tasks in different domains. With the\nextensive and growing research in adversarial attacks, it is crucial to\nunderstand the classification of adversarial attacks. This will help us\nunderstand the vulnerabilities in a systematic order and help us to mitigate\nthe effects of adversarial attacks. This article provides a survey of existing\nadversarial attacks and their understanding based on different perspectives. We\nalso provide a brief overview of existing adversarial defences and their\nlimitations in mitigating the effect of adversarial attacks. Further, we\nconclude with a discussion on the future research directions in the field of\nadversarial machine learning.",
         "translated": ""
+    },
+    {
+        "title": "Chrisimos: A useful Proof-of-Work for finding Minimal Dominating Set of\n  a graph",
+        "url": "http://arxiv.org/abs/2308.04407v1",
+        "pub_date": "2023-08-08",
+        "summary": "Hash-based Proof-of-Work (PoW) used in the Bitcoin Blockchain leads to high\nenergy consumption and resource wastage. In this paper, we aim to re-purpose\nthe energy by replacing the hash function with real-life problems having\ncommercial utility. We propose Chrisimos, a useful Proof-of-Work where miners\nare required to find a minimal dominating set for real-life graph instances. A\nminer who is able to output the smallest dominating set for the given graph\nwithin the block interval time wins the mining game. We also propose a new\nchain selection rule that ensures the security of the scheme. Thus our protocol\nalso realizes a decentralized minimal dominating set solver for any graph\ninstance. We provide formal proof of correctness and show via experimental\nresults that the block interval time is within feasible bounds of hash-based\nPoW.",
+        "translated": ""
+    },
+    {
+        "title": "XGBD: Explanation-Guided Graph Backdoor Detection",
+        "url": "http://arxiv.org/abs/2308.04406v1",
+        "pub_date": "2023-08-08",
+        "summary": "Backdoor attacks pose a significant security risk to graph learning models.\nBackdoors can be embedded into the target model by inserting backdoor triggers\ninto the training dataset, causing the model to make incorrect predictions when\nthe trigger is present. To counter backdoor attacks, backdoor detection has\nbeen proposed. An emerging detection strategy in the vision and NLP domains is\nbased on an intriguing phenomenon: when training models on a mixture of\nbackdoor and clean samples, the loss on backdoor samples drops significantly\nfaster than on clean samples, allowing backdoor samples to be easily detected\nby selecting samples with the lowest loss values. However, the ignorance of\ntopological feature information on graph data limits its detection\neffectiveness when applied directly to the graph domain. To this end, we\npropose an explanation-guided backdoor detection method to take advantage of\nthe topological information. Specifically, we train a helper model on the graph\ndataset, feed graph samples into the model, and then adopt explanation methods\nto attribute model prediction to an important subgraph. We observe that\nbackdoor samples have distinct attribution distribution than clean samples, so\nthe explanatory subgraph could serve as more discriminative features for\ndetecting backdoor samples. Comprehensive experiments on multiple popular\ndatasets and attack methods demonstrate the effectiveness and explainability of\nour method. Our code is available:\nhttps://github.com/GuanZihan/GNN_backdoor_detection.",
+        "translated": ""
+    },
+    {
+        "title": "Pelta: Shielding Transformers to Mitigate Evasion Attacks in Federated\n  Learning",
+        "url": "http://arxiv.org/abs/2308.04373v1",
+        "pub_date": "2023-08-08",
+        "summary": "The main premise of federated learning is that machine learning model updates\nare computed locally, in particular to preserve user data privacy, as those\nnever leave the perimeter of their device. This mechanism supposes the general\nmodel, once aggregated, to be broadcast to collaborating and non malicious\nnodes. However, without proper defenses, compromised clients can easily probe\nthe model inside their local memory in search of adversarial examples. For\ninstance, considering image-based applications, adversarial examples consist of\nimperceptibly perturbed images (to the human eye) misclassified by the local\nmodel, which can be later presented to a victim node's counterpart model to\nreplicate the attack. To mitigate such malicious probing, we introduce Pelta, a\nnovel shielding mechanism leveraging trusted hardware. By harnessing the\ncapabilities of Trusted Execution Environments (TEEs), Pelta masks part of the\nback-propagation chain rule, otherwise typically exploited by attackers for the\ndesign of malicious samples. We evaluate Pelta on a state of the art ensemble\nmodel and demonstrate its effectiveness against the Self Attention Gradient\nadversarial Attack.",
+        "translated": ""
+    },
+    {
+        "title": "Accurate, Explainable, and Private Models: Providing Recourse While\n  Minimizing Training Data Leakage",
+        "url": "http://arxiv.org/abs/2308.04341v1",
+        "pub_date": "2023-08-08",
+        "summary": "Machine learning models are increasingly utilized across impactful domains to\npredict individual outcomes. As such, many models provide algorithmic recourse\nto individuals who receive negative outcomes. However, recourse can be\nleveraged by adversaries to disclose private information. This work presents\nthe first attempt at mitigating such attacks. We present two novel methods to\ngenerate differentially private recourse: Differentially Private Model (DPM)\nand Laplace Recourse (LR). Using logistic regression classifiers and real world\nand synthetic datasets, we find that DPM and LR perform well in reducing what\nan adversary can infer, especially at low FPR. When training dataset size is\nlarge enough, we find particular success in preventing privacy leakage while\nmaintaining model and recourse accuracy with our novel LR method.",
+        "translated": ""
+    },
+    {
+        "title": "Preserving Sparsity and Privacy in Straggler-Resilient Distributed\n  Matrix Computations",
+        "url": "http://arxiv.org/abs/2308.04331v1",
+        "pub_date": "2023-08-08",
+        "summary": "Existing approaches to distributed matrix computations involve allocating\ncoded combinations of submatrices to worker nodes, to build resilience to\nstragglers and/or enhance privacy. In this study, we consider the challenge of\npreserving input sparsity in such approaches to retain the associated\ncomputational efficiency enhancements. First, we find a lower bound on the\nweight of coding, i.e., the number of submatrices to be combined to obtain\ncoded submatrices to provide the resilience to the maximum possible number of\nstragglers (for given number of nodes and their storage constraints). Next we\npropose a distributed matrix computation scheme which meets this exact lower\nbound on the weight of the coding. Further, we develop controllable trade-off\nbetween worker computation time and the privacy constraint for sparse input\nmatrices in settings where the worker nodes are honest but curious. Numerical\nexperiments conducted in Amazon Web Services (AWS) validate our assertions\nregarding straggler mitigation and computation speed for sparse matrices.",
+        "translated": ""
+    },
+    {
+        "title": "Defending Hash Tables from Subterfuge with Depth Charge",
+        "url": "http://arxiv.org/abs/2308.04305v1",
+        "pub_date": "2023-08-08",
+        "summary": "We consider the problem of defending a hash table against a Byzantine\nattacker that is trying to degrade the performance of query, insertion and\ndeletion operations. Our defense makes use of resource burning (RB) -- the the\nverifiable expenditure of network resources -- where the issuer of a request\nincurs some RB cost. Our algorithm, Depth Charge, charges RB costs for\noperations based on the depth of the appropriate object in the list that the\nobject hashes to in the table. By appropriately setting the RB costs, our\nalgorithm mitigates the impact of an attacker on the hash table's performance.\nIn particular, in the presence of a significant attack, our algorithm incurs a\ncost which is asymptotically less that the attacker's cost.",
+        "translated": ""
+    },
+    {
+        "title": "The Model Inversion Eavesdropping Attack in Semantic Communication\n  Systems",
+        "url": "http://arxiv.org/abs/2308.04304v1",
+        "pub_date": "2023-08-08",
+        "summary": "In recent years, semantic communication has been a popular research topic for\nits superiority in communication efficiency. As semantic communication relies\non deep learning to extract meaning from raw messages, it is vulnerable to\nattacks targeting deep learning models. In this paper, we introduce the model\ninversion eavesdropping attack (MIEA) to reveal the risk of privacy leaks in\nthe semantic communication system. In MIEA, the attacker first eavesdrops the\nsignal being transmitted by the semantic communication system and then performs\nmodel inversion attack to reconstruct the raw message, where both the white-box\nand black-box settings are considered. Evaluation results show that MIEA can\nsuccessfully reconstruct the raw message with good quality under different\nchannel conditions. We then propose a defense method based on random\npermutation and substitution to defend against MIEA in order to achieve secure\nsemantic communication. Our experimental results demonstrate the effectiveness\nof the proposed defense method in preventing MIEA.",
+        "translated": ""
+    },
+    {
+        "title": "The Vulnerable Nature of Decentralized Governance in DeFi",
+        "url": "http://arxiv.org/abs/2308.04267v1",
+        "pub_date": "2023-08-08",
+        "summary": "Decentralized Finance (DeFi) platforms are often governed by Decentralized\nAutonomous Organizations (DAOs) which are implemented via governance protocols.\nGovernance tokens are distributed to users of the platform, granting them\nvoting rights in the platform's governance protocol. Many DeFi platforms have\nalready been subject to attacks resulting in the loss of millions of dollars in\nuser funds.\n  In this paper we show that governance tokens are often not used as intended\nand may be harmful to the security of DeFi platforms. We show that (1) users\noften do not use governance tokens to vote, (2) that voting rates are\nnegatively correlated to gas prices, (3) voting is very centralized.\n  We explore vulnerabilities in the design of DeFi platform's governance\nprotocols and analyze different governance attacks, focusing on the\ntransferable nature of voting rights via governance tokens. Following the\nmovement and holdings of governance tokens, we show they are often used to\nperform a single action and then sold off. We present evidence of DeFi\nplatforms using other platforms' governance protocols to promote their own\nagenda at the expense of the host platform.",
+        "translated": ""
+    },
+    {
+        "title": "Novel Area-Efficient and Flexible Architectures for Optimal Ate Pairing\n  on FPGA",
+        "url": "http://arxiv.org/abs/2308.04261v1",
+        "pub_date": "2023-08-08",
+        "summary": "While FPGA is a suitable platform for implementing cryptographic algorithms,\nthere are several challenges associated with implementing Optimal Ate pairing\non FPGA, such as security, limited computing resources, and high power\nconsumption. To overcome these issues, this study introduces three approaches\nthat can execute the optimal Ate pairing on Barreto-Naehrig curves using\nJacobean coordinates with the goal of reaching 128-bit security on the Genesys\nboard. The first approach is a pure software implementation utilizing the\nMicroBlaze processor. The second involves a combination of software and\nhardware, with key operations in $F_{p}$ and $F_{p^{2}}$ being transformed into\nIP cores for the MicroBlaze. The third approach builds on the second by\nincorporating parallelism to improve the pairing process. The utilization of\nmultiple MicroBlaze processors within a single system offers both versatility\nand parallelism to speed up pairing calculations. A variety of methods and\nparameters are used to optimize the pairing computation, including Montgomery\nmodular multiplication, the Karatsuba method, Jacobean coordinates, the Complex\nsquaring method, sparse multiplication, squaring in $G_{\\phi 6}F_{p^{12}}$, and\nthe addition chain method. The proposed systems are designed to efficiently\nutilize limited resources in restricted environments, while still completing\ntasks in a timely manner.",
+        "translated": ""
+    },
+    {
+        "title": "Iterative Sketching for Secure Coded Regression",
+        "url": "http://arxiv.org/abs/2308.04185v1",
+        "pub_date": "2023-08-08",
+        "summary": "In this work, we propose methods for speeding up linear regression\ndistributively, while ensuring security. We leverage randomized sketching\ntechniques, and improve straggler resilience in asynchronous systems.\nSpecifically, we apply a random orthonormal matrix and then subsample\n\\textit{blocks}, to simultaneously secure the information and reduce the\ndimension of the regression problem. In our setup, the transformation\ncorresponds to an encoded encryption in an \\textit{approximate gradient coding\nscheme}, and the subsampling corresponds to the responses of the non-straggling\nworkers; in a centralized coded computing network. This results in a\ndistributive \\textit{iterative sketching} approach for an $\\ell_2$-subspace\nembedding, \\textit{i.e.} a new sketch is considered at each iteration. We also\nfocus on the special case of the \\textit{Subsampled Randomized Hadamard\nTransform}, which we generalize to block sampling; and discuss how it can be\nmodified in order to secure the data.",
+        "translated": ""
     }
 ]
